@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: gray;
+  min-width: 100px;
+  min-height: 100px;
+}
+.first-div {
+  background-image: url("./P1030886_Paris_IV_hôtel_de_Sens_rwk.JPG");
+
+  background-color: red;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+}
+
+.second-div {
+  background-color: yellow;
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+}
+.second-div img {
+  width: 100%;
+}
+.third-div {
+  background-color: red;
+  width: 50%;
+  height: 50vh;
+}
