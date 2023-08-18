@@ -7,8 +7,6 @@
   min-height: 100px;
 }
 .first-div {
-  background-image: url("./P1030886_Paris_IV_hôtel_de_Sens_rwk.JPG");
-
   background-color: red;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -34,11 +32,19 @@
 }
 
 .fourth-div {
-  background-color: yellow;
   width: 50%;
   height: 50vh;
   overflow: hidden;
 }
 .fourth-div img {
   width: 100%;
+}
+.div-central-tela {
+  position: absolute;
+  top: 241px;
+  left: 247px;
+  background: orange;
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
 }
